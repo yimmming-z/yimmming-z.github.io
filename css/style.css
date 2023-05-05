@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	font-size: 17px;
+}
+
+html {
+	margin: 0;
+	padding:0;
+	height:100%;
+}
+
+body {
+	margin: 0;
+	padding: 0 0 0 10px; 
+  	background: #FFFFFF;
+	height: 100%;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	box-sizing: border-box;
+	text-indent: initial;
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-style: normal;
+	color: -internal-quirk-inherit;
+	text-align: start;
+	border-spacing: 2px;
+	border-color: gray;
+	font-variant: normal;
+}
+
+h1 {
+	font-size: 200%;
+	padding: 15px 0 15px 0;
+}
+
+h2 {
+	font-size: 130%;
+	padding: 10px 0 10px 0;
+}
+
+
+h3 {
+	font-size: 110%;
+	padding: 3px 0 10px 0;
+}
+
+h4 {
+	font-size: 90%;
+	padding: 10px 0 10px 0;
+}
+
+#container { 
+	width : 1000px; 
+	margin : 20px auto; 
+	border-radius: 15px;  
+	background-color : #fff; 
+	padding : 50px;  
+	box-shadow: 0px 0px 10px #999; 
+}
+
+#content { 
+	display : block; 
+}
+
+p { 	
+	padding: 0 0 20px 0;
+	line-height: 1.7em;
+	letter-spacing: 0px;
+	font-size: 125%; 
+}
+
+hr {
+	display: block;
+	unicode-bidi: isolate;
+	overflow: hidden;
+	height: 1px;
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(196, 202, 233);
+    border-right-color: rgb(196, 202, 233);
+    border-bottom-color: rgb(196, 202, 233);
+    border-left-color: rgb(196, 202, 233);
+    background-color: rgb(196, 202, 233);
+}
+	
+a {
+	background-color:transparent
+	color:#000000;
+}
+
+a:hover {
+	color:#B30B0B;
+	background-color:transparent
+}
+
+a:active {
+	color:#B30B0B;
+	background-color:transparent
+}
+
+#conf {
+    font-size: small;
+    color: blue;
+}
+
+img { 
+	border: 0;
+}
+
+span.date {
+	display: inline-block; 
+	width: 80px;
+}
+
+span.course {
+	display: inline-block; 
+	width: 90px;
+}
+
+li {
+	display: list-item;
+    text-align: -webkit-match-parent;
+	list-style-type: disc;
+}
+
+
+ul.papers li {
+	font-size: 115%;
+	font-weight: bold;
+	padding: 10px 0 3px 0;
+}
+
+ol.papers li {
+   	font-size: 115%;
+ 	font-weight: bold;
+	padding: 10px 0 3px 0;
+}
+
+div.title {
+	margin: 0 0 0 30px;
+}
+
+div.blocks {
+	margin: 10px 0 20px 0;
+}
+
+div.indent {
+	margin: 5px 5px 5px 20px;
+	width: 80%;
+}
+
+.box {
+    inline-size: 100%;
+    overflow-wrap: break-word;
+    hyphens: manual;
+	text-indent: 2em;
+}
+
+.hire {
+    inline-size: 100%;
+    overflow-wrap: break-word;
+    hyphens: manual;
+	text-indent: 2em;
+	color: #B30B0B;
+}
+
+b.me {
+	color: #B30B0B;
+}
